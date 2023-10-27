@@ -1,0 +1,25 @@
+.carousel {
+    list-style-type: none;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+  }
+
+  .tituloCarousel {
+    margin-top: 450px;
+    margin-left: 150px;
+
+}
+
+.carousel li {
+    margin: solid 2px black; 
+    flex: 0 0 auto;
+    margin-right: 40px; /* Aggiungi spazio tra gli elementi */
+  }
+
+.imageProduct{
+    width: 150px;
+}

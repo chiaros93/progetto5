@@ -1,0 +1,16 @@
+.imageBanner-container {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Altezza desiderata per il banner */
+}
+
+.imageBanner {
+    height: auto;
+    width: 1184px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
