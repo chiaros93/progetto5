@@ -1,0 +1,71 @@
+footer {
+    background-color: #EFEFEF;
+    color: #5F5F5F;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+  .footer-links li {
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    color: #5F5F5F;
+    text-decoration: none;
+  }
+
+  .columns {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 5%;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 0%;
+  }
+
+  h3{
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon {
+    flex: 1;
+    margin-left: 5%;
+  }
+
+  .legalLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  .linkList {
+    margin-right: 50px;
+  }
+
+  .lastInfo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

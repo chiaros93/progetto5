@@ -27,20 +27,25 @@ function Catalog() {
 return (
     <div class="elementi">
         <div key="products">
-            <h2 class="tituloCarousel">TOP VENDAS</h2>
+            <h2 class="tituloCarousel">Recomendado</h2>
             <ul class="carousel">
-                {productData.products.map((product,index)=>(
+                {productData.products.slice(0,10).map((product,index)=>(
                     <li class="card" key={index}>
-                        <p>{product.nombre}</p>
+                        
                         <img class="imageProduct" src={product.imagen} alt={product.nombre} />
-                        <p id="precio"> {product.precio} £</p>
+                        <p className="name">{product.nombre}</p>
+                        <p className="price"> {product.precio} £</p>
                     </li> 
 
                 ))}
             </ul>
+            
         </div>
     </div> 
 );         
                 } 
 
 export default Catalog;
+
+
+
